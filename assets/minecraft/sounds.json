@@ -1,0 +1,345 @@
+{
+  "ambient.weather.rain": {
+    "category": "weather",
+    "replace": true,
+    "sounds": [
+      "ambient/weather/rain"
+    ]
+  },
+  "ambient.weather.thunder": {
+    "category": "weather",
+    "replace": true,
+    "sounds": [
+      "ambient/weather/thunder1",
+      "ambient/weather/thunder10",
+      "ambient/weather/thunder11",
+      "ambient/weather/thunder12",
+      "ambient/weather/thunder13",
+      "ambient/weather/thunder2",
+      "ambient/weather/thunder3",
+      "ambient/weather/thunder4",
+      "ambient/weather/thunder5",
+      "ambient/weather/thunder6",
+      "ambient/weather/thunder7",
+      "ambient/weather/thunder8",
+      "ambient/weather/thunder9"
+    ]
+  },
+  "game.player.hurt.fall.big": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "damage/fallbig1",
+      "damage/fallbig2",
+      "damage/fallbig3",
+      "damage/fallsmall1",
+      "damage/fallsmall2",
+      "damage/fallsmall3"
+    ]
+  },
+  "game.player.hurt.fall.small": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "damage/fallbig1",
+      "damage/fallbig2",
+      "damage/fallbig3",
+      "damage/fallsmall1",
+      "damage/fallsmall2",
+      "damage/fallsmall3"
+    ]
+  },
+  "game.hostile.hurt.fall.big": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "damage/fallbig1",
+      "damage/fallbig2",
+      "damage/fallbig3"
+    ]
+  },
+  "game.hostile.hurt.fall.small": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "damage/fallsmall1",
+      "damage/fallsmall2",
+      "damage/fallsmall3"
+    ]
+  },
+  "game.player.hurt": {
+    "category": "player",
+    "replace":true,
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3",
+      "damage/hit4"
+    ]
+  },
+  "game.neutral.hurt": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3",
+      "damage/hit4"
+    ]
+  },
+  "game.hostile.hurt": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3",
+      "damage/hit4"
+    ]
+  },
+  "game.player.die": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "damage/die1",
+      "damage/die2",
+      "damage/die3"
+    ]
+  },
+  "game.neutral.die": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3",
+      "damage/hit4"
+    ]
+  },
+  "game.hostile.die": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3",
+      "damage/hit4"
+    ]
+  },
+  "fire.fire": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "fire/fire"
+    ]
+  },
+  "game.neutral.swim.splash": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "liquid/splash"
+    ]
+  },
+  "game.player.swim.splash": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "liquid/splash"
+    ]
+  },
+  "game.hostile.swim.splash": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "liquid/splash"
+    ]
+  },
+  "game.player.swim": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "liquid/swim1",
+      "liquid/swim2",
+      "liquid/swim3",
+      "liquid/swim4"
+    ]
+  },
+  "game.neutral.swim": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "liquid/swim1",
+      "liquid/swim2",
+      "liquid/swim3",
+      "liquid/swim4"
+    ]
+  },
+  "game.hostile.swim": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "liquid/swim1",
+      "liquid/swim2",
+      "liquid/swim3",
+      "liquid/swim4"
+    ]
+  },
+  "random.bow": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "random/bow1",
+      "random/bow2"
+    ]
+  },
+  "random.bowhit": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3",
+      "damage/hit4"
+    ]
+  },
+  "random.chestclosed": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "random/door_close"
+    ]
+  },
+  "random.chestopen": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "random/door_open"
+    ]
+  },
+  "gui.button.press": {
+    "category": "master",
+    "replace": true,
+    "sounds": [
+      "random/click_UI"
+    ]
+  },
+  "random.door_close": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "random/door_close"
+    ]
+  },
+  "random.door_open": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "random/door_open"
+    ]
+  },
+  "random.drink": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "random/drink1",
+      "random/drink2"
+    ]
+  },
+  "random.explode": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "random/explode1",
+      "random/explode2",
+      "random/explode3"
+    ]
+  },
+  "game.potion.smash": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "random/smash1",
+      "random/smash2",
+      "random/smash3"
+    ]
+  },
+  "random.pop": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "random/pop1",
+      "random/pop2",
+      "random/pop3",
+      "random/pop4",
+      "random/pop5",
+      "random/pop6"
+    ]
+  },
+  "step.grass": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "step/grass1",
+      "step/grass2",
+      "step/grass3",
+      "step/grass4",
+      "step/grass5",
+      "step/grass6"
+    ]
+  },
+  "step.gravel": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "step/gravel1",
+      "step/gravel2",
+      "step/gravel3",
+      "step/gravel4",
+      "step/gravel5",
+      "step/gravel6"
+    ]
+  },
+  "step.sand": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "step/sand1",
+      "step/sand2",
+      "step/sand3",
+      "step/sand4",
+      "step/sand5",
+      "step/sand6",
+      "step/sand7",
+      "step/sand8"
+    ]
+  },
+  "step.stone": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "step/stone1",
+      "step/stone2",
+      "step/stone3",
+      "step/stone4",
+      "step/stone5",
+      "step/stone6",
+      "step/stone7"
+    ]
+  },
+  "step.wood": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "step/wood1",
+      "step/wood2",
+      "step/wood3",
+      "step/wood4",
+      "step/wood5",
+      "step/wood6",
+      "step/wood7",
+      "step/wood8",
+      "step/wood9",
+      "step/wood10"
+    ]
+  }
+}
