@@ -1,0 +1,22 @@
+{
+  “comment”: "Models by GeForceLegend",
+  "models":
+  [
+    {
+      "model": "chest_base.jpm",
+      "part": "base",
+      "translate": [15, 10, -1],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "chest_lid.jpm",
+      "part": "lid",
+      "translate": [15, 9, -15],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "null.jpm",
+      "part": "knob"
+    }
+  ]
+}
