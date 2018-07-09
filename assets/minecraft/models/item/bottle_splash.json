@@ -5,7 +5,7 @@
 		"texture": "items/texture",
 		"bottom_splash_atlas": "items/bottle_splash"
 	},
-	"elements": [
+	"elements": [ 	 
 		{
 			"__comment": "Voxels",
 			"from": [ 0.5, 14.5, 5 ],
@@ -7301,15 +7301,23 @@
 		}
 	],
 	"display": {
-			"thirdperson": {
-					"rotation": [-90, 0, 0 ],
-					"translation": [ 0, 1, -1 ],
-					"scale": [ 0.3, 0.3, 0.3 ]
-			},
-			"firstperson": {
-					"rotation": [0, -135, 0 ],
-					"translation": [ -2, 5, 0 ],
-					"scale": [ 0.5, 0.5, 0.5 ]
-			}
+		"thirdperson_righthand": {
+			"scale":  [ 0.2, 0.2, 0.2 ]
+		},
+		"firstperson_righthand": {
+			"translation":  [ -1, 2, 0 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"gui": {
+			"rotation":  [ 20, 0, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3.5, 0 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"fixed": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
 	}
 }

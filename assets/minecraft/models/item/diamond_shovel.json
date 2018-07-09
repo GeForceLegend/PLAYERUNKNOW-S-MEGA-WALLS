@@ -5,7 +5,7 @@
 		"texture": "items/texture",
 		"iron_shovel_atlas": "items/diamond_shovel"
 	},
-	"elements": [
+	"elements": [ 	 
 		{
 			"__comment": "Voxels",
 			"from": [ -1, 7.625, 4.25 ],
@@ -931,15 +931,22 @@
 		}
 	],
 	"display": {
-			"thirdperson": {
-					"rotation": [-90, 0, 90 ],
-					"translation": [ 0, 1, -3 ],
-					"scale": [ 0.8, 0.8, 0.8 ]
-			},
-			"firstperson": {
-					"rotation": [0, 135, 90 ],
-					"translation": [ -4, 5, 0 ],
-					"scale": [ 1, 1, 1 ]
-			}
+		"thirdperson_righthand": {
+			"rotation":  [ 0, 180, 90 ],
+			"translation":  [ 0, 3, -2 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 180, 90 ],
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.7, 0.7, 0.7 ]
+		},
+		"gui": {
+			"rotation":  [ 90, 45, 0 ],
+			"translation":  [ 0.5, -1, 0 ],
+			"scale":  [ 0.9, 0.9, 0.9 ]
+		},
+		"ground": {
+			"translation":  [ 0, -2, 0 ]
+		}
 	}
 }
