@@ -184,6 +184,13 @@
       "liquid/swim4"
     ]
   },
+  "liquid.water": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "liquid/water"
+    ]
+  },
   "random.bow": {
     "category": "neutral",
     "replace": true,
