@@ -1507,15 +1507,25 @@
 			"rotation":  [ 0, 180, 90 ],
 			"translation":  [ 0, 3, 0 ]
 		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 0, 180, -90 ],
+			"translation":  [ 0, 3, 0 ]
+		},
 		"firstperson_righthand": {
 			"rotation":  [ 0, 180, 90 ]
 		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 180, -90 ]
+		},
 		"gui": {
 			"rotation":  [ 90, 45, 0 ],
-			"scale":  [ 0.8, 0.8, 0.8 ]
+			"scale":  [ 0.7, 0.7, 0.7 ]
 		},
 		"ground": {
-			"translation":  [ 0, -2, 0 ]
+			"translation":  [ 0, -3, 0 ]
+		},
+		"fixed": {
+			"rotation":  [ -90, -135, 0 ]
 		}
 	}
 }

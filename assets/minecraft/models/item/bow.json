@@ -5,7 +5,7 @@
 		"texture": "items/texture",
 		"voxels_atlas": "items/bow"
 	},
-	"elements": [
+	"elements": [ 	 
 		{
 			"__comment": "Voxels",
 			"from": [ 2.625, 9.375, 2.125 ],
@@ -15192,37 +15192,50 @@
 		}
 	],
 	"display": {
-			"thirdperson": {
-					"rotation": [90, 0, 180 ],
-					"translation": [ 0, 2.8, -2 ],
-					"scale": [ 1, 1, 1 ]
-			},
-			"firstperson": {
-					"rotation": [0, -45, 0 ],
-					"translation": [ -4, 5, 0 ],
-					"scale": [ 1.2, 1.2, 1.2 ]
-			}
+		"thirdperson_righthand": {
+			"translation":  [ -1, 0.4, -2 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"thirdperson_lefthand": {
+			"translation":  [ -1, 0.4, -2 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"firstperson_righthand": {
+			"translation":  [ -2, 2, 0 ]
+		},
+		"firstperson_lefthand": {
+			"translation":  [ -2, 2, 0 ]
+		},
+		"gui": {
+			"rotation":  [ 30, -140, 3 ],
+			"translation":  [ 0, 0.5, 0 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"fixed": {
+			"rotation":  [ 90, 55, -90 ],
+			"translation":  [ 0, 0.5, 0 ]
+		}
 	},
 	"overrides": [
-			{
-					"predicate": {
-							"pulling": 1
-					},
-					"model": "item/bow_pulling_0"
+		{
+			"predicate": {
+				"pulling": 1
 			},
-			{
-					"predicate": {
-							"pulling": 1,
-							"pull": 0.65
-					},
-					"model": "item/bow_pulling_1"
+			"model": "item/bow_pulling_0"
+		},
+		{
+			"predicate": {
+				"pull": 0.65,
+				"pulling": 1
 			},
-			{
-					"predicate": {
-							"pulling": 1,
-							"pull": 0.9
-					},
-					"model": "item/bow_pulling_2"
-			}
+			"model": "item/bow_pulling_1"
+		},
+		{
+			"predicate": {
+				"pull": 0.9,
+				"pulling": 1
+			},
+			"model": "item/bow_pulling_2"
+		}
 	]
 }
